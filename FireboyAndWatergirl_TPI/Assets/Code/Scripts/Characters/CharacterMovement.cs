@@ -95,7 +95,7 @@ public abstract class CharacterMovement : MonoBehaviour
 
     private void Jump()
     {
-        body.linearVelocity = new Vector2(body.linearVelocity.x, speed * 1.5f);
+        body.linearVelocity = new Vector2(body.linearVelocity.x, speed * 1.6f);
         grounded = false;
 
         // Apply unique jumping offset when airborne

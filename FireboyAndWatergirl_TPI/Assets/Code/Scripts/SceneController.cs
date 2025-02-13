@@ -8,6 +8,8 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
+        Screen.SetResolution(1920, 1080, true);
+
         if (instance == null)
         {
             instance = this;
