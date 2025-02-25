@@ -12,6 +12,8 @@ TagManager:
   - Water
   - Lava
   - GreenGoo
+  - BlueDiamond
+  - RedDiamond
   layers:
   - Default
   - TransparentFX
@@ -25,8 +27,8 @@ TagManager:
   - Lava
   - DoorWatergirl
   - DoorFireboy
-  - 
-  - 
+  - BlueDiamond
+  - RedDiamond
   - 
   - 
   - 
