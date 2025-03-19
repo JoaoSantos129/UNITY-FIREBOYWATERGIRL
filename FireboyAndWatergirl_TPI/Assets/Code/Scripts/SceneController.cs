@@ -8,7 +8,11 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
-        Screen.SetResolution(1920, 1080, true);
+        // Set screen width and height pixels. Set to fullscreen or not
+        // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen.SetResolution.html
+        bool fullscreen = true; 
+
+        Screen.SetResolution(1920, 1080, fullscreen);
 
         if (instance == null)
         {
