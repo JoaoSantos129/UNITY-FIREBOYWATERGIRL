@@ -3972,7 +3972,7 @@ GameObject:
   - component: {fileID: 480503005}
   - component: {fileID: 480503004}
   - component: {fileID: 480503003}
-  - component: {fileID: 480503002}
+  - component: {fileID: 480503006}
   m_Layer: 6
   m_Name: Watergirl
   m_TagString: Watergirl
@@ -3980,20 +3980,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &480503002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480503001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee50c1f7d5482d64c8875dfc48a78c58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  body: {fileID: 0}
-  speed: 8
 --- !u!50 &480503003
 Rigidbody2D:
   serializedVersion: 5
@@ -4093,6 +4079,21 @@ Transform:
   - {fileID: 1626851335}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480503006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480503001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4476761eb0e8a924aa9cc2c90ae83619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  speed: 8
+  characterConfig: {fileID: 11400000, guid: deee18176981da0409cef16854e1d54f, type: 2}
 --- !u!1 &500062299
 GameObject:
   m_ObjectHideFlags: 0
@@ -12513,7 +12514,7 @@ GameObject:
   - component: {fileID: 1326872544}
   - component: {fileID: 1326872543}
   - component: {fileID: 1326872542}
-  - component: {fileID: 1326872541}
+  - component: {fileID: 1326872545}
   m_Layer: 7
   m_Name: Fireboy
   m_TagString: Fireboy
@@ -12521,20 +12522,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1326872541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326872540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 173ab2e4b5e06af4f9429d6f0549d3bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  body: {fileID: 0}
-  speed: 8
 --- !u!50 &1326872542
 Rigidbody2D:
   serializedVersion: 5
@@ -12634,6 +12621,21 @@ Transform:
   - {fileID: 1391903237}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1326872545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326872540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4476761eb0e8a924aa9cc2c90ae83619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  speed: 8
+  characterConfig: {fileID: 11400000, guid: ad578382f09846d47aa110dc36010d51, type: 2}
 --- !u!1 &1327983933
 GameObject:
   m_ObjectHideFlags: 0

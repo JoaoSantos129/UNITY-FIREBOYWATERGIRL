@@ -68,3 +68,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# DLL, EXE, ZIP, etc. - binary and heavy files
+*.dll
+*.exe
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Building folders
+/[Bb]uild/
+/[Bb]uilds/
