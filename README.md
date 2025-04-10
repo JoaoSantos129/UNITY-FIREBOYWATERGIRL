@@ -2,8 +2,8 @@
 
 ## 🔧 Required Tools
 
-| Tool | Recommended Version | Download Link |
-|------|---------------------|----------------|
+| Tool / Link | Recommended Version |
+|------|---------------------|
 | [Unity Editor](https://unity.com/releases/editor) | 2023.3.11f1 or later |
 | [Visual Studio Code](https://code.visualstudio.com/) | 1.99.1 or later |
 | [.NET SDK (for C# support in IDE)](https://dotnet.microsoft.com/en-us/download) | 6.0 or later |
@@ -23,7 +23,6 @@ The following packages are included
 | `com.unity.device-simulator.devices` | 1.0.0 | Device simulation for testing | [Link](https://docs.unity3d.com/Packages/com.unity.device-simulator@1.0/manual/index.html) |
 | `com.unity.ugui` | 2.0.0 | Legacy UI (uGUI) | [Link](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/index.html) |
 | `com.unity.test-framework` | 1.4.5 | Unity Test Framework | [Link](https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html) |
-| `com.unity.multiplayer.center` | 1.0.0 | (Optional) Multiplayer Center | *(Internal Unity package)* |
 | `com.unity.ide.visualstudio` | 2.0.22 | Visual Studio integration | [Link](https://docs.unity3d.com/Manual/VisualStudioIntegration.html) |
 
 > 💡 All other `com.unity.modules.*` packages are built-in Unity engine modules and don't require separate installation.
